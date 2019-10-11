@@ -1,0 +1,13 @@
+.button-play {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    position: relative;
+    padding-left: 20px;
+}
+.button-play::before {
+    position: absolute;
+    content: '▶';
+    left: 5px;
+}
